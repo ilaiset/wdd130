@@ -1,22 +1,31 @@
 body{
     max-width: 1600px;
-    margin:0 auto;
+    margin:0;
     background-color: beige;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', Tahoma, sans-serif;
+    padding: 0;
 }
     .icon {
         width: 80px;
+        padding-top: 10px;
     }
         nav a {
             text-align: center;
             color: black;
             text-decoration: none;
+            padding: 35px;
         }
         nav a:hover {
             background-color: beige;
             color: black;
+            padding: 35px;
         }
         .home-title {
             color: black;
+            margin-top: 10px;
+            font-size: 2em;
+            font-family: 'Trebuchet MS', Tahoma, sans-serif;
         }
         main {
             text-align: center;
@@ -28,8 +37,19 @@ body{
             text-align: center;
         }
         .book, .join {
-            background-color: beige;
+            background-color: rgb(29, 138, 246);
+            color: black;
+            font-size: 18px;
             text-decoration: none;
+            padding: 15px 30px;
+            margin-top: 50px;
+            border-radius: 5px solid black;
+        }
+        .card-img {
+            border: 10px solid black;
+        }
+        .rivers-card, .camping-card, .rapids-card {
+            margin: 200px 0;
         }
         .book:hover, .join:hover {
             color: black;
@@ -38,26 +58,38 @@ body{
             text-align: center;
         }
         h2 {
-
+            margin: 0;
         }
         h4 {
             color: black;
+        }
+        #content {
+            max-width: 1600px;
         }
         #background {
             height: 725px;
             background-color: beige;
         }
+        #logo_link {
+            padding-top: 5px;
+        }
+        main section img {
+            box-sizing: border-box;
+        }
         .msg {
-            background-color: beige;
+            background-color: rgb(64, 138, 74);
+            line-height: 1.5em;
+            padding: 35px;
         }
         .msg h2 {
             color: black;
+            font-family: 'Trebuchet MS', Tahoma, sans-serif;
+
         }
         .msg p {
             color: black;
-        }
-        nav {
-
+            font-size: .8em;
+            padding-bottom: 15px;
         }
         footer h3 {
             color: black;
@@ -66,11 +98,16 @@ body{
             text-decoration: underline;
         }
         footer a:hover {
-            color: black;
+            color: rgb(23, 8, 110);
         }
         footer a {
             text-decoration: none;
         }
+        footer .social img {
+            padding-top: 15px;
+        }
         footer {
-            background-color: beige;
+            background-color: rgb(64, 138, 74);
+            padding: 25px 50px;
+            margin-top: 200px;
         }

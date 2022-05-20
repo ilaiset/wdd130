@@ -10,6 +10,9 @@ body{
         width: 80px;
         padding-top: 10px;
     }
+        header {
+            background-color: burlywood;
+        }
         nav a {
             text-align: center;
             color: black;
@@ -42,7 +45,7 @@ body{
             font-size: 18px;
             text-decoration: none;
             padding: 15px 30px;
-            margin-top: 50px;
+            margin-top: 0px;
             border-radius: 5px solid black;
         }
         .card-img {
@@ -58,7 +61,7 @@ body{
             text-align: center;
         }
         #hero {
-            margin: 200px 0;
+            margin: 0;
         }
         #hero-img {
             color: burlywood;
@@ -70,7 +73,7 @@ body{
             color: black;
         }
         #content {
-            max-width: 1600px;
+            max-width: 1600px burlywood;
         }
         #background {
             height: 725px;
